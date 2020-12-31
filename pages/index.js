@@ -13,10 +13,6 @@ export default function Home({ allPostsData }) {
       </Head>
       <section className={utilStyles.headingMd}>
         <p>Next.js, TypeScriptをやっていく</p>
-        <p>
-          Twitter: {' '}
-          <a href="https://twitter.com/tktk7l9">@tktk7l9</a>
-        </p>
       </section>
       <section className={`${utilStyles.headingMd}...${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Blog</h2>

@@ -23,3 +23,25 @@
 .backToHome {
   margin: 3rem 0 0;
 }
+
+/* Share SNS */
+.shareSns li {
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  /* display: inline-block; */
+}
+
+.shareSns li a:hover {
+  opacity: 0.8;
+}
+
+.twitterImage {
+  width: 3rem;
+  height: 3rem;
+}
+
+.githubImage {
+  width: 2rem;
+  height: 2rem;
+}

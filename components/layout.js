@@ -4,6 +4,8 @@ import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 
 const name = 'Takuya Saito'
+const twitter = 'Twitter'
+const github = 'GitHub'
 export const siteTitle = 'Next.js Sample Website'
 
 export default function Layout({ children, home }) {
@@ -52,6 +54,38 @@ export default function Layout({ children, home }) {
                     </>
                     )}
             </header>
+            <sns className={styles.shareSns}>
+                <ul>
+                    <li>
+                        <>
+                            <a
+                                href="https://twitter.com/tktk7l9"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <img
+                                    src="/images/twitter_logo.png"
+                                    className={`${styles.twitterImage} ${utilStyles.borderCircle}`} alt={twitter}
+                                    />
+                            </a>
+                        </>
+                    </li>
+                    <li>
+                        <>
+                            <a
+                                href="https://github.com/tktk7l9"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <img
+                                    src="/images/github_logo.png"
+                                    className={`${styles.githubImage} ${utilStyles.borderCircle}`} alt={github}
+                                />
+                            </a>
+                        </>
+                    </li>
+                </ul>
+            </sns>
             <main>{children}</main>
             {!home && (
                 <div className={styles.backToHome}>

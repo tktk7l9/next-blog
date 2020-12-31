@@ -54,8 +54,8 @@ export default function Layout({ children, home }) {
                     </>
                     )}
             </header>
-            <sns className={styles.shareSns}>
-                <ul>
+            {/* <sns className={styles.shareSns}> */}
+                <ul className={styles.shareSns}>
                     <li>
                         <>
                             <a
@@ -85,7 +85,7 @@ export default function Layout({ children, home }) {
                         </>
                     </li>
                 </ul>
-            </sns>
+            {/* </sns> */}
             <main>{children}</main>
             {!home && (
                 <div className={styles.backToHome}>

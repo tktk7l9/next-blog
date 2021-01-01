@@ -6,9 +6,15 @@ import Link from 'next/link'
 const name = 'Takuya Saito'
 const twitter = 'Twitter'
 const github = 'GitHub'
-export const siteTitle = 'Next.js Sample Website'
+export const siteTitle = 'Takuya\'s Website'
 
-export default function Layout({ children, home }) {
+export default function Layout({
+    children,
+    home
+}: {
+    children: React.ReactNode
+    home?: boolean
+}) {
     return (
         <div className={styles.container}>
             <Head>
@@ -31,7 +37,11 @@ export default function Layout({ children, home }) {
                     <>
                         <img
                             src="/images/profile.jpg"
-                            className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`} alt={name}
+                            className={`
+                            ${styles.headerHomeImage} 
+                            ${utilStyles.borderCircle}
+                            `}
+                            alt={name}
                         />
                         <h1 className={utilStyles.heading2Xl}>{name}</h1>
                     </>
@@ -41,7 +51,10 @@ export default function Layout({ children, home }) {
                         <a>
                             <img
                             src="/images/profile.jpg"
-                            className={`${styles.headerImage} ${utilStyles.borderCircle}`}
+                            className={`
+                            ${styles.headerImage} 
+                            ${utilStyles.borderCircle}
+                            `}
                             alt={name}
                             />
                         </a>

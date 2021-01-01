@@ -1,6 +1,6 @@
 .container {
   max-width: 36rem;
-  padding: 0 1rem;
+  padding: 0 9rem;
   margin: 3rem auto 6rem;
 }
 
@@ -25,11 +25,14 @@
 }
 
 /* Share SNS */
+.shareSns ul {
+  padding-inline-start: 0px;
+}
+
 .shareSns li {
-  align-items: center;
-  flex-direction: column;
-  display: flex;
-  /* display: inline-block; */
+  display: inline-flex;
+  vertical-align: middle;
+  padding: 2px;
 }
 
 .shareSns li a:hover {

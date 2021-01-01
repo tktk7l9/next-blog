@@ -66,39 +66,35 @@ export default function Layout({
                         </h2>
                     </>
                     )}
-            </header>
-            {/* <sns className={styles.shareSns}> */}
-                <ul className={styles.shareSns}>
-                    <li>
-                        <>
+                <div className={styles.shareSns}>
+                    <ul>
+                        <li>
                             <a
                                 href="https://twitter.com/tktk7l9"
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
-                                <img
-                                    src="/images/twitter_logo.png"
-                                    className={`${styles.twitterImage} ${utilStyles.borderCircle}`} alt={twitter}
-                                    />
+                            <img
+                                src="/images/twitter_logo.png"
+                                className={`${styles.twitterImage} ${utilStyles.borderCircle}`} alt={twitter}
+                                />
                             </a>
-                        </>
-                    </li>
-                    <li>
-                        <>
+                        </li>
+                        <li>
                             <a
                                 href="https://github.com/tktk7l9"
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
-                                <img
-                                    src="/images/github_logo.png"
-                                    className={`${styles.githubImage} ${utilStyles.borderCircle}`} alt={github}
-                                />
+                            <img
+                                src="/images/github_logo.png"
+                                className={`${styles.githubImage} ${utilStyles.borderCircle}`} alt={github}
+                            />
                             </a>
-                        </>
-                    </li>
-                </ul>
-            {/* </sns> */}
+                        </li>
+                    </ul>
+                </div>
+            </header>
             <main>{children}</main>
             {!home && (
                 <div className={styles.backToHome}>

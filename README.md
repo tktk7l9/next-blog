@@ -2,9 +2,6 @@
 
 ## 使用技術
 
-- 言語:
-  - [TypeScript](https://www.typescriptlang.org/)
-- フレームワーク:
-  - [Next.js](https://nextjs.org/)
-- ホスティング:
-  - [Vercel](https://vercel.com/docs)
+- 言語: [TypeScript](https://www.typescriptlang.org/)
+- フレームワーク: [Next.js](https://nextjs.org/)
+- ホスティング: [Vercel](https://vercel.com/docs)

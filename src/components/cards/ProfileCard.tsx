@@ -17,7 +17,7 @@ export const ProfileCard: FC<Props> = (props) => {
         />
       </div>
 
-      <h2 className="mt-4 font-bold text-xl">たくなり</h2>
+      <h2 className="mt-4 font-bold text-xl">Takuya Saito</h2>
       <h6 className="mt-2 text-sm font-medium">
         System Engineer
       </h6>

@@ -9,7 +9,7 @@ export default function Home({}) {
     <>
       <Meta
         title="Portfolio"
-        description="たくなり | System Engineer."
+        description="Takuya Saito | System Engineer."
         image="https://images.microcms-assets.io/protected/ap-northeast-1:12587faf-e507-4a34-8fbf-d773ad9ed641/service/tktk7l9/media/asakusashi_dance.jpg"
       />
       <Header />

@@ -1,4 +1,4 @@
-[Takuya's Blog](https://next-blog.tktk7l9.vercel.app/)
+Takuya's Portfolio
 
 ## 使用技術
 

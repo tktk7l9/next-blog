@@ -6,7 +6,7 @@ import Link from 'next/link'
 const name = 'Takuya Saito'
 const twitter = 'Twitter'
 const github = 'GitHub'
-export const siteTitle = 'Takuya\'s Website'
+export const siteTitle = 'Takuya\'s Portfolio'
 
 export default function Layout({
     children,

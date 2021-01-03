@@ -4,7 +4,8 @@ import posts from "../../.contents/posts.json";
 import { Header, SkillList, ProfileCard } from "../components";
 import { Meta } from "../components/common/Meta";
 
-export default function Home({}) {
+export default function Home({ }) {
+
   return (
     <>
       <Meta

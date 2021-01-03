@@ -2,10 +2,14 @@ import React, { FC, useState, useEffect } from "react";
 import { skills } from "@src/utils/skills";
 import { HtmlIcon } from "./icons/HtmlIcon";
 import {
-  TypeScriptIcon,
-  JavaScriptIcon,
-  ReactIcon,
-  CssIcon,
+    TypeScriptIcon,
+    JavaScriptIcon,
+    ReactIcon,
+    CssIcon,
+    GolangIcon,
+    PythonIcon,
+    NextjsIcon,
+    GcpIcon,
 } from "./icons";
 
 type Props = {
@@ -17,15 +21,23 @@ export const SkillIcon: FC<Props> = (props) => {
 
   switch (name) {
     case "React":
-      return <ReactIcon />;
+        return <ReactIcon />;
     case "TypeScript":
-      return <TypeScriptIcon />;
+        return <TypeScriptIcon />;
     case "JavaScript":
-      return <JavaScriptIcon />;
+        return <JavaScriptIcon />;
     case "html":
-      return <HtmlIcon />;
+        return <HtmlIcon />;
     case "css":
-      return <CssIcon />;
+        return <CssIcon />;
+    case "Golang":
+        return <GolangIcon />;
+    case "Python":
+        return <PythonIcon />;
+    case "Nextjs":
+        return <NextjsIcon />;
+    case "Gcp":
+        return <GcpIcon />;
     default:
       return null;
   }

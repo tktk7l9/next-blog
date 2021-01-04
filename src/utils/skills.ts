@@ -1,5 +1,3 @@
-import { Skill } from "../types";
-
 export const skills = [
     { name: "Nextjs" },
     { name: "React" },

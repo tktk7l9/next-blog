@@ -1,7 +1,7 @@
 import { PostItem } from "../types";
-import { PostList, Logo, Title } from "../components";
+import { PostList, Title } from "../components";
 import posts from "../../.contents/posts.json";
-import { Header, SubContent, SkillList, ProfileCard } from "../components";
+import { Header, SubContent, ProfileCard } from "../components";
 import { Meta } from "../components/common/Meta";
 
 export default function Home({ }) {

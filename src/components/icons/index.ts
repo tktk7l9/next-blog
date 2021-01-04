@@ -12,3 +12,4 @@ export * from "./TypeScriptIcon";
 export * from "./TwitterIcon";
 export * from "./ZennIcon";
 export * from "./Logo";
+export * from "./GitHubGrass";

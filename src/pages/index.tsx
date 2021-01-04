@@ -1,7 +1,7 @@
 import { PostItem } from "../types";
 import { PostList, Logo, Title } from "../components";
 import posts from "../../.contents/posts.json";
-import { Header, SkillList, ProfileCard } from "../components";
+import { Header, SubContent, SkillList, ProfileCard } from "../components";
 import { Meta } from "../components/common/Meta";
 
 export default function Home({ }) {
@@ -18,7 +18,7 @@ export default function Home({ }) {
         <section className="mb-10">
           <ProfileCard />
         </section>
-
+        <SubContent />
         <section>
           <Title>Articles</Title>
           <PostList items={posts as PostItem[]} />

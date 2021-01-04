@@ -1,4 +1,4 @@
-import React, { FC, useState, useEffect } from "react";
+import React, { FC } from "react";
 import { GithubIcon, TwitterIcon, ZennIcon, EmailIcon } from "../icons";
 import { ProfileIcon } from "../ProfileIcon";
 

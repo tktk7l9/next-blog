@@ -1,5 +1,5 @@
 
-import React, { FC, useState, useEffect } from "react";
+import React, { FC } from "react";
 import { skills } from "../utils/skills";
 import { SkillIcon } from "./SkillIcon";
 

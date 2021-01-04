@@ -1,5 +1,4 @@
-import React, { FC, useState, useEffect } from "react";
-import Link from "next/link";
+import React, { FC } from "react";
 import { GitHubGrass } from "../icons";
 
 type Props = {};

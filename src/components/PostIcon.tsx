@@ -1,5 +1,5 @@
 import { PostItem } from "@src/types";
-import React, { FC, useState, useEffect } from "react";
+import React, { FC } from "react";
 import Image from "next/image";
 import { ZennIcon } from "./icons";
 

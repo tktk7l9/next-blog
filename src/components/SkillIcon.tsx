@@ -1,4 +1,4 @@
-import React, { FC, useState, useEffect } from "react";
+import React, { FC } from "react";
 import { skills } from "@src/utils/skills";
 import { HtmlIcon } from "./icons/HtmlIcon";
 import {

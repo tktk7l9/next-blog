@@ -1,4 +1,3 @@
-import { Article } from "../../types";
 import { getBlog } from "../../lib/api";
 import { Header, QualificationList, Title } from "../../components";
 import { AboutItem } from "../../components/AboutItem";

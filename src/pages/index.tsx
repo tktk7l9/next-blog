@@ -18,7 +18,9 @@ export default function Home({ }) {
         <section className="mb-10">
           <ProfileCard />
         </section>
-        <SubContent />
+        <section className="mb-10">
+          <SubContent />
+        </section>
         <section>
           <Title>Articles</Title>
           <PostList items={posts as PostItem[]} />

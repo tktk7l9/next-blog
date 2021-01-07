@@ -12,13 +12,14 @@ export default function BlogId({
 }: {
   blog: Article | Draft;
   preview: boolean;
-}) {
+  }) {
+    const utf8title = unescape(encodeURIComponent(blog.title));
   return (
     <>
       <Meta
         title={blog.title}
         description=""
-        image="https://images.microcms-assets.io/protected/ap-northeast-1:12587faf-e507-4a34-8fbf-d773ad9ed641/service/tktk7l9/media/asakusashi_dance.jpg"
+        image={`https://og-image-1.vercel.app/${utf8title}.png`}
       />
       <Header />
       {preview && <a href="/api/clear-preview">プレビューモードを解除</a>}

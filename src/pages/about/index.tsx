@@ -1,5 +1,5 @@
 import { getBlog } from "../../lib/api";
-import { Header, QualificationList, Title } from "../../components";
+import { Header, QualificationList, Title, Footer } from "../../components";
 import { AboutItem } from "../../components/AboutItem";
 import { SkillList } from "../../components/SkillList";
 import { Meta } from "../../components/common/Meta";
@@ -40,8 +40,9 @@ export default function About() {
         description="Takuya Saito | System Engineer."
         image="https://images.microcms-assets.io/protected/ap-northeast-1:12587faf-e507-4a34-8fbf-d773ad9ed641/service/tktk7l9/media/asakusashi_dance.jpg"
       />
-      <Header />
-      <main className="max-w-3xl mx-auto px-4 sm:px-6 xl:max-w-5xl xl:px-0 mb-10">
+      <body className="flex flex-col min-h-screen ">
+        <Header />
+      <main className="flex-grow max-w-3xl mx-auto px-4 sm:px-6 xl:max-w-5xl xl:px-0 mb-10">
         <section className="border-b-2 border-gray-200">
           <Title>Skills</Title>
           <SkillList />
@@ -64,6 +65,8 @@ export default function About() {
           ))}
         </ul>
       </main>
+        <Footer/>
+      </body>
     </>
   );
 }

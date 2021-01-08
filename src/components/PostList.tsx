@@ -1,7 +1,6 @@
 import { useState } from "react";
 import Link from "next/link";
 import { format } from "date-fns";
-import { member } from "../utils/member";
 import { PostItem } from "@src/types";
 import { PostIcon } from "./PostIcon";
 
@@ -13,7 +12,7 @@ const PostLink: React.FC<{ item: PostItem }> = (props) => {
       <Link href={link}>
         <a className="flex items-start space-x-4">
           <PostIcon sourceType={sourceType} />
-          <div className="flex-auto">
+          <div className="w-5/6">
             <h3 className="font-bold text-gray-900">{title}</h3>
             <time dateTime={isoDate} className="text-sm text-gray-500">
               {isoDate && format(new Date(isoDate), "yyyy/MM/dd")}

@@ -7,7 +7,7 @@ import { Meta } from "../../components/common/Meta";
 const contents = [
   {
     title: "神奈川県立大和高等学校 卒業",
-    date: "2012.03",
+    date: "2011.03",
     url: "https://www.pen-kanagawa.ed.jp/yamato-h/",
   },
   {

@@ -4,20 +4,26 @@ type Props = {
   date: string;
   title: string;
   body?: string;
+  url?: string;
   isLast?: boolean;
   isFirst?: boolean;
 };
 
 export const AboutItem: FC<Props> = (props) => {
-  const { title, date, body, isLast, isFirst } = props;
+  const { title, date, body, url, isLast, isFirst } = props;
 
   return (
     <li>
       <article>
         <div className="grid md:grid-cols-8 xl:grid-cols-9 items-start relative rounded-xl p-3 sm:p-5 xl:p-6 overflow-hidden">
-          <h3 className="font-semibold text-gray-900 md:col-start-3 md:col-span-6 xl:col-start-3 xl:col-span-7 mb-1 ml-9 md:ml-0">
+          <a
+            href={url}
+            target="_blank"
+            rel="noopener"
+            className="font-semibold text-gray-900 md:col-start-3 md:col-span-6 xl:col-start-3 xl:col-span-7 mb-1 ml-9 md:ml-0"
+          >
             {title}
-          </h3>
+          </a>
           <time
             dateTime={date}
             className="md:col-start-1 md:col-span-2 row-start-1 md:row-end-3 flex items-center font-medium mb-1 md:mb-0 text-gray-500"

@@ -8,14 +8,15 @@ export const GitHubGrass: FC<Props> = (props) => {
   return (
     <>
       <a
-      href="https://github.com/tktk7l9"
-      target="_blank"
-      rel="noopener"
+        href="https://github.com/tktk7l9"
+        target="_blank"
+        rel="noopener"
       >
         <img
           src="https://grass-graph.moshimo.works/images/tktk7l9.png"
-          alt="tktk7l9"
-          />
+          alt="w"
+          className="h-full w-full object-contain"
+        />
       </a>
     </>
   );

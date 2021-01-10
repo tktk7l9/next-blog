@@ -9,7 +9,7 @@ export const CssIcon: FC<Props> = (props) => {
     <a
       href="https://developer.mozilla.org/ja/docs/Web/CSS"
       target="_blank"
-      rel="noopener"
+      rel="noopener noreferrer"
     >
       <svg
         width="50"

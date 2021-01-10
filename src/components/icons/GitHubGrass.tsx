@@ -10,7 +10,7 @@ export const GitHubGrass: FC<Props> = (props) => {
       <a
         href="https://github.com/tktk7l9"
         target="_blank"
-        rel="noopener"
+        rel="noopener noreferrer"
       >
         <img
           src="https://grass-graph.moshimo.works/images/tktk7l9.png"

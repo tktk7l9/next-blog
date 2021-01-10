@@ -9,7 +9,7 @@ export const ReactIcon: FC<Props> = (props) => {
     <a
       href="https://ja.reactjs.org/docs/getting-started.html"
       target="_blank"
-      rel="noopener"
+      rel="noopener noreferrer"
     >
       <svg
         width="50"

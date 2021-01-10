@@ -9,7 +9,7 @@ export const GcpIcon: FC<Props> = (props) => {
     <a
       href="https://cloud.google.com/docs"
       target="_blank"
-      rel="noopener"
+      rel="noopener noreferrer"
     >
       <svg
         width="50"

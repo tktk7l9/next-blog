@@ -19,7 +19,7 @@ export const AboutItem: FC<Props> = (props) => {
           <a
             href={url}
             target="_blank"
-            rel="noopener"
+            rel="noopener noreferrer"
             className="font-semibold text-gray-900 md:col-start-3 md:col-span-6 xl:col-start-3 xl:col-span-7 mb-1 ml-9 md:ml-0"
           >
             {title}

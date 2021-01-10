@@ -9,7 +9,7 @@ export const PythonIcon: FC<Props> = (props) => {
     <a
       href="https://docs.python.org/3/"
       target="_blank"
-      rel="noopener"
+      rel="noopener noreferrer"
     >
       <svg
         width="50"

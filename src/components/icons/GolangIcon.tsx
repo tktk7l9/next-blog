@@ -9,7 +9,7 @@ export const GolangIcon: FC<Props> = (props) => {
     <a
       href="https://golang.org/doc/"
       target="_blank"
-      rel="noopener"
+      rel="noopener noreferrer"
     >
       <svg
         width="50"

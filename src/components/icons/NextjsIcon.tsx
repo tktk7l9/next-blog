@@ -9,7 +9,7 @@ export const NextjsIcon: FC<Props> = (props) => {
     <a
       href="https://nextjs.org/docs"
       target="_blank"
-      rel="noopener"
+      rel="noopener noreferrer"
     >
       <svg
         width="50"

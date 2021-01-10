@@ -9,7 +9,7 @@ export const JavaScriptIcon: FC<Props> = (props) => {
     <a
       href="https://developer.mozilla.org/ja/docs/Web/JavaScript"
       target="_blank"
-      rel="noopener"
+      rel="noopener noreferrer"
     >
       <svg
         width="50"

@@ -9,7 +9,7 @@ export const TypeScriptIcon: FC<Props> = (props) => {
     <a
       href="https://www.typescriptlang.org/docs/"
       target="_blank"
-      rel="noopener"
+      rel="noopener noreferrer"
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"

@@ -32,9 +32,9 @@ export const ProfileCard: FC<Props> = (props) => {
         >
           <GithubIcon />
         </ProfileIcon>
-        <ProfileIcon href="https://zenn.dev/tktk7l9">
+        {/* <ProfileIcon href="https://zenn.dev/tktk7l9">
           <ZennIcon color="currentColor" />
-        </ProfileIcon>
+        </ProfileIcon> */}
         <ProfileIcon href="https://twitter.com/tktk7l9">
           <TwitterIcon />
         </ProfileIcon>

@@ -22,10 +22,10 @@ export default function Home({ }) {
           <section>
             <SubContent />
           </section>
-          <section>
+          {/* <section>
             <Title>Articles</Title>
             <PostList items={posts as PostItem[]} />
-          </section>
+          </section> */}
       </main>
         <Footer />
       </body>

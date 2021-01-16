@@ -15,10 +15,12 @@ export const ArticleIndexCard: FC<Props> = (props): JSX.Element => {
   return (
     <Link href={`/blog/${id}`}>
       <a
-        className="flex flex-col bg-white px-8 py-6 max-w-sm rounded-lg shadow-lg border border-gray-100 hover:bg-gray-50"
+        className="flex flex-col bg-white px-12 py-10 max-w-sm rounded-lg shadow-lg border border-gray-100 hover:bg-gray-50"
         aria-label={title}
       >
-        <div className="mt-4 text-lg text-gray-700 font-medium">{title}</div>
+        <div className="mt-4 text-lg text-gray-700 font-medium">
+          {title}
+        </div>
         <div className="flex justify-between items-center mt-4">
           {category ? (
             <div className="flex justify-center items-center">
@@ -29,7 +31,7 @@ export const ArticleIndexCard: FC<Props> = (props): JSX.Element => {
           ) : (
             <div></div>
           )}
-          <span className="font-light text-sm text-gray-600">
+          <span className="font-light text-sm text-gray-600 px-2">
             {format(new Date(publishedAt), "yyyy/MM/dd")}
           </span>
         </div>

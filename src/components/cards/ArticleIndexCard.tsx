@@ -15,7 +15,7 @@ export const ArticleIndexCard: FC<Props> = (props): JSX.Element => {
   return (
     <Link href={`/blog/${id}`}>
       <a
-        className="flex flex-col bg-white px-12 py-10 max-w-sm rounded-lg shadow-lg border border-gray-100 hover:bg-gray-50"
+        className="flex flex-col bg-white px-12 py-6 max-w-sm rounded-lg shadow-lg border border-gray-100 hover:bg-gray-50"
         aria-label={title}
       >
         <div className="mt-4 text-lg text-gray-700 font-medium">

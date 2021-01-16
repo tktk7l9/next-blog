@@ -1,4 +1,3 @@
-
 import React, { FC } from "react";
 import { skills } from "../utils/skills";
 import { SkillIcon } from "./SkillIcon";

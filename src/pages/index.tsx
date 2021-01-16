@@ -1,6 +1,3 @@
-import { PostItem } from "../types";
-import { PostList, Title } from "../components";
-import posts from "../../.contents/posts.json";
 import { Header, SubContent, ProfileCard, Footer } from "../components";
 import { Meta } from "../components/common/Meta";
 

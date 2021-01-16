@@ -20,7 +20,7 @@ export const AboutItem: FC<Props> = (props) => {
             href={url}
             target="_blank"
             rel="noopener noreferrer"
-            className="font-semibold text-gray-900 md:col-start-3 md:col-span-6 xl:col-start-3 xl:col-span-7 mb-1 ml-9 md:ml-0"
+            className="font-semibold text-gray-900 md:col-start-3 md:col-span-6 xl:col-start-3 xl:col-span-7 mb-1 ml-9 md:ml-4"
           >
             {title}
           </a>
@@ -78,7 +78,7 @@ export const AboutItem: FC<Props> = (props) => {
             {date}
           </time>
           {body && (
-            <p className="md:col-start-3 md:col-span-6 xl:col-span-7 ml-9 md:ml-0  text-gray-500">
+            <p className="md:col-start-3 md:col-span-6 xl:col-span-7 ml-9 md:ml-4  text-gray-500">
               {body}
             </p>
           )}

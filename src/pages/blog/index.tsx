@@ -1,6 +1,6 @@
-import { ArticleIndexCard, Footer, Header, Meta } from "../../components"
-import { getBlog } from "../../lib"
-import { Article } from "../../types"
+import { ArticleIndexCard, Footer, Header, Meta } from "components"
+import { getBlog } from "lib"
+import { Article } from "types"
 
 export default function Blog({ contents }: { contents: Article[] }) {
   return (

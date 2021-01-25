@@ -1,15 +1,11 @@
-import React, { FC } from "react";
-import Link from "next/link";
-import { Logo } from "../icons";
+import React, { FC } from "react"
 
-type Props = {};
+type Props = {}
 
 export const Footer: FC<Props> = (props) => {
   return (
     <footer className="bg-white sticky top-0">
-      <div className="p-2 text-center text-xs">
-        Copyright © 2021 by Takuya Saito
-      </div>
+      <div className="p-2 text-center text-xs">Copyright © 2021 by Takuya Saito</div>
     </footer>
-  );
-};
+  )
+}

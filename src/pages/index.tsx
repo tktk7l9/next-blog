@@ -1,8 +1,6 @@
-import { Header, SubContent, ProfileCard, Footer } from "../components";
-import { Meta } from "../components/common/Meta";
+import { Footer, Header, Meta, ProfileCard, SubContent } from "components"
 
-export default function Home({ }) {
-
+export default function Home({}) {
   return (
     <>
       <Meta
@@ -12,7 +10,7 @@ export default function Home({ }) {
       />
       <body className="flex flex-col min-h-screen ">
         <Header />
-      <main className="flex-grow max-w-3xl mx-auto  my-10 px-4 sm:px-6 xl:max-w-5xl xl:px-0">
+        <main className="flex-grow max-w-3xl mx-auto  my-10 px-4 sm:px-6 xl:max-w-5xl xl:px-0">
           <section className="mb-10">
             <ProfileCard />
           </section>
@@ -23,9 +21,9 @@ export default function Home({ }) {
             <Title>Articles</Title>
             <PostList items={posts as PostItem[]} />
           </section> */}
-      </main>
+        </main>
         <Footer />
       </body>
     </>
-  );
+  )
 }

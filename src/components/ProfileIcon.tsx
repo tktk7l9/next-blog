@@ -1,12 +1,12 @@
-import React, { FC } from "react";
+import React, { FC } from "react"
 
 type Props = {
-  href: string;
-  name: string;
-};
+  href: string
+  name: string
+}
 
 export const ProfileIcon: FC<Props> = (props) => {
-  const { href, name, children } = props;
+  const { href, name, children } = props
 
   return (
     <li>
@@ -20,5 +20,5 @@ export const ProfileIcon: FC<Props> = (props) => {
         {children}
       </a>
     </li>
-  );
-};
+  )
+}

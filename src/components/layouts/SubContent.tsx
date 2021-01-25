@@ -1,5 +1,5 @@
-import { GitHubGrass } from "@src/components/icons"
 import React, { FC } from "react"
+import { GitHubGrass } from "../../components"
 
 type Props = {}
 

@@ -1,16 +1,12 @@
-import React, { FC } from "react";
+import React, { FC } from "react"
 
-type Props = {};
+type Props = {}
 
 export const PythonIcon: FC<Props> = (props) => {
-  const {} = props;
+  const {} = props
 
   return (
-    <a
-      href="https://docs.python.org/3/"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
+    <a href="https://docs.python.org/3/" target="_blank" rel="noopener noreferrer">
       <svg
         width="50"
         height="50"
@@ -19,36 +15,13 @@ export const PythonIcon: FC<Props> = (props) => {
         preserveAspectRatio="xMidYMid"
       >
         <defs>
-          <linearGradient
-            x1="12.959%"
-            y1="12.039%"
-            x2="79.639%"
-            y2="78.201%"
-            id="a"
-          >
-            <stop
-              stopColor="#387EB8"
-              offset="0%"
-            />
-            <stop
-              stopColor="#366994"
-              offset="100%"
-            />
+          <linearGradient x1="12.959%" y1="12.039%" x2="79.639%" y2="78.201%" id="a">
+            <stop stopColor="#387EB8" offset="0%" />
+            <stop stopColor="#366994" offset="100%" />
           </linearGradient>
-          <linearGradient
-            x1="19.128%"
-            y1="20.579%"
-            x2="90.742%"
-            y2="88.429%"
-            id="b">
-            <stop
-              stopColor="#FFE052"
-              offset="0%"
-            />
-            <stop
-              stopColor="#FFC331"
-              offset="100%"
-            />
+          <linearGradient x1="19.128%" y1="20.579%" x2="90.742%" y2="88.429%" id="b">
+            <stop stopColor="#FFE052" offset="0%" />
+            <stop stopColor="#FFC331" offset="100%" />
           </linearGradient>
         </defs>
         <g>
@@ -63,5 +36,5 @@ export const PythonIcon: FC<Props> = (props) => {
         </g>
       </svg>
     </a>
-  );
-};
+  )
+}

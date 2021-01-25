@@ -1,17 +1,13 @@
-import React, { FC } from "react";
+import React, { FC } from "react"
 
-type Props = {};
+type Props = {}
 
 export const GitHubGrass: FC<Props> = (props) => {
-  const {} = props;
+  const {} = props
 
   return (
     <>
-      <a
-        href="https://github.com/tktk7l9"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
+      <a href="https://github.com/tktk7l9" target="_blank" rel="noopener noreferrer">
         <img
           src="https://grass-graph.moshimo.works/images/tktk7l9.png"
           alt="w"
@@ -19,5 +15,5 @@ export const GitHubGrass: FC<Props> = (props) => {
         />
       </a>
     </>
-  );
-};
+  )
+}

@@ -1,15 +1,18 @@
-import React, { FC } from "react";
+import React, { FC } from "react"
 
-type Props = {};
+type Props = {}
 
 const qualifications = [
-  { name: "Oracle Certified Java Programmer, Silver SE 8 (Oracle Certified Associate, Java SE 8 Programmer) 認定資格" },
-    { name: "ITパスポート" },
-    { name: "TOIEC 745点" },
-];
+  {
+    name:
+      "Oracle Certified Java Programmer, Silver SE 8 (Oracle Certified Associate, Java SE 8 Programmer) 認定資格",
+  },
+  { name: "ITパスポート" },
+  { name: "TOIEC 745点" },
+]
 
 export const QualificationList: FC<Props> = (props) => {
-  const {} = props;
+  const {} = props
 
   return (
     <div className="pb-8 prose">
@@ -19,5 +22,5 @@ export const QualificationList: FC<Props> = (props) => {
         ))}
       </ul>
     </div>
-  );
-};
+  )
+}

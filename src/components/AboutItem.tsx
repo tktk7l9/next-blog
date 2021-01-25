@@ -1,16 +1,16 @@
-import React, { FC } from "react";
+import React, { FC } from "react"
 
 type Props = {
-  date: string;
-  title: string;
-  body?: string;
-  url?: string;
-  isLast?: boolean;
-  isFirst?: boolean;
-};
+  date: string
+  title: string
+  body?: string
+  url?: string
+  isLast?: boolean
+  isFirst?: boolean
+}
 
 export const AboutItem: FC<Props> = (props) => {
-  const { title, date, body, url, isLast, isFirst } = props;
+  const { title, date, body, url, isLast, isFirst } = props
 
   return (
     <li>
@@ -29,10 +29,7 @@ export const AboutItem: FC<Props> = (props) => {
             className="md:col-start-1 md:col-span-2 row-start-1 md:row-end-3 flex items-center font-medium mb-1 md:mb-0 text-gray-500"
           >
             {isLast ? (
-              <svg
-                viewBox="0 0 12 12"
-                className="w-3 h-3 mr-6 overflow-visible text-blue-400"
-              >
+              <svg viewBox="0 0 12 12" className="w-3 h-3 mr-6 overflow-visible text-blue-400">
                 <circle cx="6" cy="6" r="6" fill="currentColor"></circle>
                 <circle
                   cx="6"
@@ -51,10 +48,7 @@ export const AboutItem: FC<Props> = (props) => {
                 ></path>
               </svg>
             ) : (
-              <svg
-                viewBox="0 0 12 12"
-                className="w-3 h-3 mr-6 overflow-visible text-gray-300"
-              >
+              <svg viewBox="0 0 12 12" className="w-3 h-3 mr-6 overflow-visible text-gray-300">
                 <circle cx="6" cy="6" r="6" fill="currentColor"></circle>
                 {!isFirst && (
                   <path
@@ -85,5 +79,5 @@ export const AboutItem: FC<Props> = (props) => {
         </div>
       </article>
     </li>
-  );
-};
+  )
+}

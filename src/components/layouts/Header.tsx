@@ -1,6 +1,6 @@
-import { Logo } from "@src/components/icons"
 import Link from "next/link"
 import React, { FC } from "react"
+import { Logo } from "../../components"
 
 type Props = {}
 

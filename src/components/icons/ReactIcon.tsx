@@ -1,9 +1,9 @@
-import React, { FC } from "react";
+import React, { FC } from "react"
 
-type Props = {};
+type Props = {}
 
 export const ReactIcon: FC<Props> = (props) => {
-  const {} = props;
+  const {} = props
 
   return (
     <a
@@ -26,5 +26,5 @@ export const ReactIcon: FC<Props> = (props) => {
         </g>
       </svg>
     </a>
-  );
-};
+  )
+}

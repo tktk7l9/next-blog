@@ -1,16 +1,12 @@
-import React, { FC } from "react";
+import React, { FC } from "react"
 
-type Props = {};
+type Props = {}
 
 export const TypeScriptIcon: FC<Props> = (props) => {
-  const {} = props;
+  const {} = props
 
   return (
-    <a
-      href="https://www.typescriptlang.org/docs/"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
+    <a href="https://www.typescriptlang.org/docs/" target="_blank" rel="noopener noreferrer">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="50"
@@ -38,5 +34,5 @@ export const TypeScriptIcon: FC<Props> = (props) => {
         </g>
       </svg>
     </a>
-  );
-};
+  )
+}

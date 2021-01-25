@@ -1,7 +1,7 @@
-import { ZennIcon } from "@src/components/icons"
 import { PostItem } from "@src/types"
 import Image from "next/image"
 import React, { FC } from "react"
+import { ZennIcon } from "../components"
 
 type Props = {
   sourceType: PostItem["sourceType"]

@@ -1,44 +1,36 @@
-import { useState } from "react";
-import Link from "next/link";
-import { format } from "date-fns";
-import { PostItem } from "@src/types";
-import { PostIcon } from "./PostIcon";
+import { PostItem } from "@src/types"
+import { format } from "date-fns"
+import Link from "next/link"
+import { useState } from "react"
+import { PostIcon } from "./PostIcon"
 
 const PostLink: React.FC<{ item: PostItem }> = (props) => {
-  const { title, isoDate, link, sourceType } = props.item;
-  console.log(props.item);
+  const { title, isoDate, link, sourceType } = props.item
+  console.log(props.item)
   return (
     <li className="rounded hover:bg-gray-100 -m-3 p-3">
       <Link href={link}>
-        <a
-          className="flex items-start space-x-4"
-          aria-label={title}
-        >
+        <a className="flex items-start space-x-4" aria-label={title}>
           <PostIcon sourceType={sourceType} />
           <div className="w-5/6">
-            <h3 className="font-bold text-gray-900">
-              {title}
-            </h3>
-            <time
-              dateTime={isoDate}
-              className="text-sm text-gray-500"
-            >
+            <h3 className="font-bold text-gray-900">{title}</h3>
+            <time dateTime={isoDate} className="text-sm text-gray-500">
               {isoDate && format(new Date(isoDate), "yyyy/MM/dd")}
             </time>
           </div>
         </a>
       </Link>
     </li>
-  );
-};
+  )
+}
 
 export const PostList: React.FC<{ items: PostItem[] }> = (props) => {
-  const [displayItemsCount, setDisplayItemsCount] = useState<number>(32);
-  const totalItemsCount = props.items?.length || 0;
-  const canLoadMore = totalItemsCount - displayItemsCount > 0;
+  const [displayItemsCount, setDisplayItemsCount] = useState<number>(32)
+  const totalItemsCount = props.items?.length || 0
+  const canLoadMore = totalItemsCount - displayItemsCount > 0
 
   if (!totalItemsCount) {
-    return <div className="post-list-empty">No posts yet</div>;
+    return <div className="post-list-empty">No posts yet</div>
   }
 
   return (
@@ -59,5 +51,5 @@ export const PostList: React.FC<{ items: PostItem[] }> = (props) => {
         </div>
       )}
     </>
-  );
-};
+  )
+}

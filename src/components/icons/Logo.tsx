@@ -1,9 +1,9 @@
-import React, { FC } from "react";
+import React, { FC } from "react"
 
-type Props = {};
+type Props = {}
 
 export const Logo: FC<Props> = (props) => {
-  const {} = props;
+  const {} = props
 
   return (
     <svg
@@ -18,5 +18,5 @@ export const Logo: FC<Props> = (props) => {
         fill="black"
       />
     </svg>
-  );
-};
+  )
+}

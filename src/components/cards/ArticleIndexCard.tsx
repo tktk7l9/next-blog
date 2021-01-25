@@ -1,16 +1,16 @@
-import React, { FC } from "react";
-import { Article } from "../../types";
-import Link from "next/link";
-import { format } from "date-fns";
+import { format } from "date-fns"
+import Link from "next/link"
+import React, { FC } from "react"
+import { Article } from "types"
 
 type Props = {
-  article: Article;
-};
+  article: Article
+}
 
 export const ArticleIndexCard: FC<Props> = (props): JSX.Element => {
   const {
     article: { id, title, publishedAt, category },
-  } = props;
+  } = props
 
   return (
     <Link href={`/blog/${id}`}>
@@ -18,9 +18,7 @@ export const ArticleIndexCard: FC<Props> = (props): JSX.Element => {
         className="flex flex-col bg-white px-12 py-6 max-w-sm rounded-lg shadow-lg border border-gray-100 hover:bg-gray-50"
         aria-label={title}
       >
-        <div className="mt-4 text-lg text-gray-700 font-medium">
-          {title}
-        </div>
+        <div className="mt-4 text-lg text-gray-700 font-medium">{title}</div>
         <div className="flex justify-between items-center mt-4">
           {category ? (
             <div className="flex justify-center items-center">
@@ -37,5 +35,5 @@ export const ArticleIndexCard: FC<Props> = (props): JSX.Element => {
         </div>
       </a>
     </Link>
-  );
-};
+  )
+}

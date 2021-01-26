@@ -15,6 +15,7 @@ const contents = [
   {
     title: "カナダ語学留学",
     date: "2016.04 - 2017.01",
+    url: "http://www.canpacificcollege.com/",
   },
   {
     title: "株式会社トラストリッジ - インターン",
@@ -25,6 +26,7 @@ const contents = [
   {
     title: "立教大学 現代心理学部 卒業",
     date: "2018.03",
+    url: "https://www.rikkyo.ac.jp/undergraduate/cp/department_02.html",
   },
   {
     title: "日本アイビーエム・ソリューション・サービス株式会社 入社",

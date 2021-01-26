@@ -1,8 +1,8 @@
+import { Header, Meta } from "components"
 import { format } from "date-fns"
+import { getArticle, getBlog } from "lib"
 import type { GetStaticProps } from "next"
 import { Article, Draft } from "types"
-import { Header, Meta } from "../../components"
-import { getArticle, getBlog } from "../../lib/api"
 
 // pages/blog/[id].js
 export default function BlogId({ blog, preview }: { blog: Article | Draft; preview: boolean }) {

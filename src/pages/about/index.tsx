@@ -1,8 +1,5 @@
-import { QualificationList, SkillList, Title } from "../../components"
-import { AboutItem } from "../../components/AboutItem"
-import { Meta } from "../../components/common"
-import { Footer, Header } from "../../components/layouts"
-import { getBlog } from "../../lib/api"
+import { AboutItem, Footer, Header, Meta, QualificationList, SkillList, Title } from "components"
+import { getBlog } from "lib"
 
 const contents = [
   {

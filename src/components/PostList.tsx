@@ -1,8 +1,8 @@
 import { PostItem } from "@src/types"
+import { PostIcon } from "components"
 import { format } from "date-fns"
 import Link from "next/link"
 import { useState } from "react"
-import { PostIcon } from "./PostIcon"
 
 const PostLink: React.FC<{ item: PostItem }> = (props) => {
   const { title, isoDate, link, sourceType } = props.item

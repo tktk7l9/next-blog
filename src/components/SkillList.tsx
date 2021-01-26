@@ -1,5 +1,5 @@
 import React, { FC } from "react"
-import { skills } from "../utils"
+import { skills } from "utils"
 import { SkillIcon } from "./SkillIcon"
 
 type Props = {}

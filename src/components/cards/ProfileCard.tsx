@@ -1,5 +1,5 @@
+import { EmailIcon, GithubIcon, ProfileIcon, TwitterIcon } from "components"
 import React, { FC } from "react"
-import { EmailIcon, GithubIcon, ProfileIcon, TwitterIcon } from "../../components"
 
 type Props = {}
 

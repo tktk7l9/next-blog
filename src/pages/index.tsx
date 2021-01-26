@@ -1,4 +1,4 @@
-import { Footer, Header, Meta, ProfileCard, SubContent } from "../components"
+import { Footer, Header, Meta, ProfileCard, SubContent } from "components"
 
 export default function Home({}) {
   return (

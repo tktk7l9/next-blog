@@ -13,6 +13,7 @@ export const GcpIcon: FC<Props> = (props) => {
         viewBox="0 0 2385.7 1919.9"
         version="1.1"
         preserveAspectRatio="xMidYMid"
+        className="hover:opacity-80"
       >
         <g>
           <path

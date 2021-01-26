@@ -13,6 +13,7 @@ export const PythonIcon: FC<Props> = (props) => {
         viewBox="0 0 256 255"
         version="1.1"
         preserveAspectRatio="xMidYMid"
+        className="hover:opacity-80"
       >
         <defs>
           <linearGradient x1="12.959%" y1="12.039%" x2="79.639%" y2="78.201%" id="a">

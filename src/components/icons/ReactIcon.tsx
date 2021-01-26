@@ -17,6 +17,7 @@ export const ReactIcon: FC<Props> = (props) => {
         viewBox="0 0 256 228"
         version="1.1"
         preserveAspectRatio="xMidYMid"
+        className="hover:opacity-80"
       >
         <g>
           <path

@@ -14,6 +14,7 @@ export const TypeScriptIcon: FC<Props> = (props) => {
         viewBox="0 0 256 256"
         version="1.1"
         preserveAspectRatio="xMidYMid"
+        className="hover:opacity-80"
       >
         <g>
           <polygon

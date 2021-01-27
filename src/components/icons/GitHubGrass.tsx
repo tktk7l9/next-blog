@@ -6,14 +6,12 @@ export const GitHubGrass: FC<Props> = (props) => {
   const {} = props
 
   return (
-    <>
-      <a href="https://github.com/tktk7l9" target="_blank" rel="noopener noreferrer">
-        <img
-          src="https://grass-graph.moshimo.works/images/tktk7l9.png"
-          alt="w"
-          className="h-full w-full inline-block object-contain hover:opacity-80"
-        />
-      </a>
-    </>
+    <a href="https://github.com/tktk7l9" target="_blank" rel="noopener noreferrer">
+      <img
+        src="https://grass-graph.moshimo.works/images/tktk7l9.png"
+        alt="w"
+        className="hover:opacity-80"
+      />
+    </a>
   )
 }

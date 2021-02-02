@@ -10,18 +10,18 @@ export const Header: FC<Props> = (props) => {
       <div className="flex items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
         <div className="md:flex items-center">
           <Link href="/">
-            <a className="block" aria-label="トップに移動">
+            <a className="block" aria-label="topに移動">
               <Logo />
             </a>
           </Link>
         </div>
         <div className="flex text-sm">
-          <Link href="/blog">
+          <Link href="/home">
             <a
-              className="font-medium text-gray-500 hover:text-gray-900"
-              aria-label="ブログページに移動"
+              className="ml-4 font-medium text-gray-500 hover:text-gray-900 sm:ml-12"
+              aria-label="homeページに移動"
             >
-              Blog
+              Home
             </a>
           </Link>
           <Link href="/about">
@@ -30,6 +30,14 @@ export const Header: FC<Props> = (props) => {
               aria-label="aboutページに移動"
             >
               About
+            </a>
+          </Link>
+          <Link href="/blog">
+            <a
+              className="ml-4 font-medium text-gray-500 hover:text-gray-900 sm:ml-12"
+              aria-label="blogページに移動"
+            >
+              Blog
             </a>
           </Link>
         </div>

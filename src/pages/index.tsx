@@ -11,7 +11,7 @@ export default function Top() {
       <body className="flex flex-col min-h-screen ">
         <Header />
         <main className="flex-grow max-w-3xl mx-auto px-4 sm:px-6 xl:max-w-5xl xl:px-0 mt-10 flex items-center">
-          <p className="lg:text-6xl md:text-5xl sm:text-6xl">Takuya Saito's Portfolio</p>
+          <p className="lg:text-6xl md:text-5xl sm:text-5xl">Takuya Saito's Portfolio</p>
         </main>
         <Footer />
       </body>

@@ -14,7 +14,7 @@ export default function Home({}) {
           <section className="flex-grow mx-auto mb-10">
             <ProfileCard />
           </section>
-          <section className="flex-grow mx-auto mb-10">
+          <section>
             <SubContent />
           </section>
           {/* <section>

@@ -16,14 +16,6 @@ export const Header: FC<Props> = (props) => {
           </Link>
         </div>
         <div className="flex text-sm">
-          <Link href="/home">
-            <a
-              className="ml-4 font-medium text-gray-500 hover:text-gray-900 sm:ml-12"
-              aria-label="homeページに移動"
-            >
-              Home
-            </a>
-          </Link>
           <Link href="/about">
             <a
               className="ml-4 font-medium text-gray-500 hover:text-gray-900 sm:ml-12"

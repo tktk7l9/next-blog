@@ -15,7 +15,7 @@ export const Meta: React.FC<Props> = (props) => {
       <title>{title ? `${title} - tktk7l9` : `tktk7l9`}</title>
       <meta
         name="description"
-        content={description ? `${description}` : `Takuya Saitoのサイトです。`}
+        content={description ? `${description}` : `Takuya SaitoのPortfolioです。`}
       />
       <meta name="twitter:title" content={title} />
       <meta name="twitter:description" content={description} />

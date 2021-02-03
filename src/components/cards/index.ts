@@ -1,2 +1,2 @@
+export * from "../Profile"
 export * from "./ArticleIndexCard"
-export * from "./ProfileCard"

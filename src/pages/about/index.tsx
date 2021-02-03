@@ -1,4 +1,14 @@
-import { AboutItem, Footer, Header, Meta, QualificationList, SkillList, Title } from "components"
+import {
+  AboutItem,
+  Footer,
+  GitHubGrass,
+  Header,
+  Meta,
+  Profile,
+  QualificationList,
+  SkillList,
+  Title,
+} from "components"
 import { getBlog } from "lib"
 
 const contents = [
@@ -53,6 +63,14 @@ export default function About() {
       <body className="flex flex-col min-h-screen ">
         <Header />
         <main className="flex-grow max-w-3xl mx-auto px-4 sm:px-6 xl:max-w-5xl xl:px-0 mb-10">
+          <section className="border-b-2 border-gray-200">
+            <Title>Profile</Title>
+            <Profile />
+          </section>
+          <section className="border-b-2 border-gray-200">
+            <Title>Contributions</Title>
+            <GitHubGrass />
+          </section>
           <section className="border-b-2 border-gray-200">
             <Title>Skills</Title>
             <SkillList />

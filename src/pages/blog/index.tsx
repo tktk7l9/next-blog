@@ -21,6 +21,10 @@ export default function Blog({ contents }: { contents: Article[] }) {
             ))}
           </ul>
         </main>
+        {/* <section>
+            <Title>Articles</Title>
+            <PostList items={posts as PostItem[]} />
+          </section> */}
         <Footer />
       </body>
     </>

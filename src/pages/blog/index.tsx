@@ -12,7 +12,7 @@ export default function Blog({ contents }: { contents: Article[] }) {
       />
       <body className="flex flex-col min-h-screen ">
         <Header />
-        <main className="flex-grow max-w-3xl mx-auto px-4 sm:px-6 xl:max-w-5xl xl:px-0 mt-10">
+        <main className="animate-fadeIn flex-grow max-w-3xl mx-auto px-4 sm:px-6 xl:max-w-5xl xl:px-0 mt-10">
           <ul className="grid sm:grid-cols-2 xl:grid-cols-3 gap-6">
             {contents.map((article) => (
               <li key={article.id}>

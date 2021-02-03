@@ -29,7 +29,10 @@ export const AboutItem: FC<Props> = (props) => {
             className="md:col-start-1 md:col-span-2 row-start-1 md:row-end-3 flex items-center font-medium mb-1 md:mb-0 text-gray-500"
           >
             {isLast ? (
-              <svg viewBox="0 0 12 12" className="w-3 h-3 mr-6 overflow-visible text-blue-400">
+              <svg
+                viewBox="0 0 12 12"
+                className="w-3 h-3 mr-6 overflow-visible text-blue-400 animate-pulse"
+              >
                 <circle cx="6" cy="6" r="6" fill="currentColor"></circle>
                 <circle
                   cx="6"

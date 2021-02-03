@@ -1,4 +1,3 @@
-export * from "../GitHubGrass"
 export * from "./CssIcon"
 export * from "./EmailIcon"
 export * from "./GcpIcon"

@@ -8,9 +8,9 @@ export const Profile: FC<Props> = (props) => {
 
   return (
     <>
-      <h2 className="text-2xl font-medium">齋藤 拓也 (Takuya Saito)</h2>
+      <h2 className="text-2xl font-medium">齋藤 拓也 | Takuya Saito</h2>
       <p className="mt-2 text-lg font-medium">System Engineer</p>
-      <p className="mt-2 text-base">Next.js,TypeScriptをやっていく</p>
+      <p className="mt-2 text-base">Next.js, TypeScriptをやっていく</p>
       <ul className="flex flex-row mt-4 pb-8 space-x-2">
         <ProfileIcon href="https://github.com/tktk7l9" name="github">
           <GithubIcon />

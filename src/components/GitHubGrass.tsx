@@ -1,3 +1,4 @@
+import Image from "next/image"
 import React, { FC } from "react"
 
 type Props = {}
@@ -8,10 +9,14 @@ export const GitHubGrass: FC<Props> = (props) => {
   return (
     <div className="pb-8">
       <a href="https://github.com/tktk7l9" target="_blank" rel="noopener noreferrer">
-        <img
-          src="https://grass-graph.moshimo.works/images/tktk7l9.png?background=none"
+        <Image
+          src={`https://grass-graph.moshimo.works/images/tktk7l9.png?background=none`}
+          width={100}
+          height={20}
+          quality={100}
+          layout="responsive"
           alt="w"
-          className="min-h-50 hover:opacity-80"
+          className="hover:opacity-80"
         />
       </a>
     </div>

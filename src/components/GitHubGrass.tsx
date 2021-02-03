@@ -12,7 +12,7 @@ export const GitHubGrass: FC<Props> = (props) => {
         <Image
           src={`https://grass-graph.moshimo.works/images/tktk7l9.png?background=none`}
           width={100}
-          height={20}
+          height={15}
           quality={100}
           layout="responsive"
           alt="w"

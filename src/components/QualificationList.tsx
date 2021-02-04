@@ -15,7 +15,7 @@ export const QualificationList: FC<Props> = (props) => {
   const {} = props
 
   return (
-    <div className="pb-8 prose">
+    <div className="pb-8 prose dark:text-gray-300">
       <ul>
         {qualifications.map((item, i) => (
           <li key={i}>{item.name}</li>

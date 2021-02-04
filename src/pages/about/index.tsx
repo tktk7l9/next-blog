@@ -57,32 +57,28 @@ const contents = [
 export default function About() {
   return (
     <>
-      <Meta
-        title="Portfolio - about me"
-        description="Takuya Saito | System Engineer."
-        image="https://images.microcms-assets.io/protected/ap-northeast-1:12587faf-e507-4a34-8fbf-d773ad9ed641/service/tktk7l9/media/asakusashi_dance.jpg"
-      />
-      <body className="flex flex-col min-h-screen ">
+      <Meta title="About" description="Takuya Saito | System Engineer." image="" />
+      <body className="flex flex-col min-h-screen dark:bg-black">
         <Header />
         <main className="animate-fadeIn flex-grow max-w-3xl mx-auto px-4 sm:px-6 xl:max-w-5xl xl:px-0 mb-10">
-          <section className="border-b-2 border-gray-200">
+          <section className="border-b-2 border-gray-200 dark:border-gray-500">
             <Title>Profile</Title>
             <Profile />
           </section>
-          <section className="border-b-2 border-gray-200">
+          <section className="border-b-2 border-gray-200 dark:border-gray-500">
             <Title>Contributions</Title>
             <GitHubGrass />
           </section>
-          <section className="border-b-2 border-gray-200">
+          <section className="border-b-2 border-gray-200 dark:border-gray-500">
             <Title>Skills</Title>
             <SkillList />
           </section>
-          <section className="border-b-2 border-gray-200">
+          <section className="border-b-2 border-gray-200 dark:border-gray-500">
             <Title>Qualifications</Title>
             <QualificationList />
           </section>
           <Title>Education ＆ Career</Title>
-          <ul className="bg-gray-50 rounded-3xl p-2 sm:p-5 xl:p-6">
+          <ul className="bg-gray-50 rounded-3xl p-2 sm:p-5 xl:p-6 dark:bg-gray-900">
             {contents.map((content, i) => (
               <AboutItem
                 date={content.date}

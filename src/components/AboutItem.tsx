@@ -20,7 +20,7 @@ export const AboutItem: FC<Props> = (props) => {
             href={url}
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:underline font-semibold text-gray-900 md:col-start-3 md:col-span-6 xl:col-start-3 xl:col-span-7 mb-1 ml-9 md:ml-4"
+            className="hover:underline font-semibold text-gray-900 md:col-start-3 md:col-span-6 xl:col-start-3 xl:col-span-7 mb-1 ml-9 md:ml-4 dark:text-gray-300"
           >
             {title}
           </a>

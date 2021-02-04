@@ -1,4 +1,5 @@
 export * from "./AboutItem"
+export * from "./ButtonDarkMode"
 export * from "./cards"
 export * from "./common"
 export * from "./GitHubGrass"

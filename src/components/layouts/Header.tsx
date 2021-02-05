@@ -15,7 +15,7 @@ export const Header: FC<Props> = (props) => {
             </a>
           </Link>
         </div>
-        <div className="flex text-sm text-gray-500">
+        <div className="flex space-x-8 text-gray-500">
           <Link href="/about">
             <a
               className="ml-4 font-medium text-gray-500 hover:text-gray-900 dark:hover:text-gray-300 sm:ml-12"
@@ -26,14 +26,12 @@ export const Header: FC<Props> = (props) => {
           </Link>
           <Link href="/blog">
             <a
-              className="ml-4font-medium text-gray-500 hover:text-gray-900 dark:hover:text-gray-300 sm:ml-12"
+              className="ml-4 font-medium text-gray-500 hover:text-gray-900 dark:hover:text-gray-300 sm:ml-12"
               aria-label="blogページに移動"
             >
               Blog
             </a>
           </Link>
-        </div>
-        <div className="flex text-sm text-gray-500">
           <ButtonDarkMode />
         </div>
       </div>

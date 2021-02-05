@@ -28,8 +28,7 @@ export const ButtonDarkMode = () => {
   return (
     <>
       <button
-        name="darkModeButton"
-        id="darkModeButton"
+        aria-label="darkModeButton"
         onClick={handleChangeDarkMode}
         className="focus:outline-none hover:text-gray-900 dark:hover:text-gray-300"
       >
